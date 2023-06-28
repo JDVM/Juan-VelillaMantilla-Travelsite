@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana;
+  /* border: #000 solid 1px; */
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.nav-bar__destinations__links--decoration-removal {
+    text-decoration: none;
+    color: #335576;
+}
+
+.nav-bar__destinations__links--decoration-removal:visited,
+.nav-bar__destinations__links--decoration-removal:active {
+    color:#335576;
+}
+.nav-bar {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  height: 3.125rem;
+  margin-left: 5.625rem;
+  margin-right: 5.625rem;
+}
+
+.nav-bar__title {
+  display: flex;
+  margin: 0.625rem 1.25rem;
+  align-items: flex-end;
+  color: #335576;
+}
+
+.nav-bar__destinations {
+  display: flex;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.nav-bar__destinations__links {
+  display: flex;
+  margin: 0.625rem;
+  align-items: baseline;
+}
+
+.nav-bar__destinations__links--underlined {
+  border-bottom: solid 0.188rem #db7a4e;
+}
+
+.footer {
+  background-color: #fefaf5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.footer__main-titles {
+  display: flex;
+  flex-direction: row;
+  color: #335576;
+  margin: 1.875rem auto;
+}
+
+.footer__sub-heading__content {
+  color: #db7a4e;
+  font-size: smaller;
+}
+
+.footer__sub-heading__content--top-margin-remove {
+  margin-top: 0;
+}
+
+.footer__sub-heading--alignment {
+  display: flex;
+}
+
+.footer__sub-heading__sections {
+  margin-top: 0;
+  margin-right: 1.25rem;
+}
+.footer__information-text {
+  color: #335576;
+}
+
+.footer__images {
+  display: inline-flex;
+  align-items: flex-end;
+  max-width: 1.5625rem;
+  height: 1.5625rem;
+  margin-top: 1.625rem;
+}
