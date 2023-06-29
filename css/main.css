@@ -1,0 +1,43 @@
+/* hero section code */
+
+.hero {
+  background-color: #fefaf5;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.hero__writen-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  color: #335576;
+  font-size: large;
+  max-width: 40%;
+}
+
+.hero__button {
+  background-color: #db7a4e;
+  border-radius: 50px;
+  width: 9.6875rem;
+  border: none;
+  color: #fff;
+  padding: 0.625rem;
+}
+
+.hero__Slogan {
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+}
+
+.hero__text {
+    font-size: .8rem;
+    margin-bottom: 2.1875rem;
+}
+
+.hero__image {
+    width: 26.5625rem;
+    height: 21.875rem;
+}

@@ -1,3 +1,4 @@
+/* Shared elements */
 * {
   box-sizing: border-box;
   font-family: Verdana;
@@ -8,22 +9,27 @@
   font-weight: 600;
 }
 
-.nav-bar__destinations__links--decoration-removal {
+/* nav bar and header code */
+.nav-bar {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  height: 3.125rem;
+  padding-left: 5.625rem;
+  padding-right: 5.625rem;
+  position: sticky;
+  width: 100%;
+
+}
+
+.nav-bar__links--decoration-removal {
     text-decoration: none;
     color: #335576;
 }
 
-.nav-bar__destinations__links--decoration-removal:visited,
-.nav-bar__destinations__links--decoration-removal:active {
+.nav-bar__links--decoration-removal:visited,
+.nav-bar__links--decoration-removal:active {
     color:#335576;
-}
-.nav-bar {
-  background-color: #ffffff;
-  display: flex;
-  justify-content: space-between;
-  height: 3.125rem;
-  margin-left: 5.625rem;
-  margin-right: 5.625rem;
 }
 
 .nav-bar__title {
@@ -39,16 +45,17 @@
   margin-left: auto;
 }
 
-.nav-bar__destinations__links {
+.nav-bar__links {
   display: flex;
   margin: 0.625rem;
   align-items: baseline;
 }
 
-.nav-bar__destinations__links--underlined {
+.nav-bar__links--underlined {
   border-bottom: solid 0.188rem #db7a4e;
 }
 
+/* star of the footer code */
 .footer {
   background-color: #fefaf5;
   display: flex;
@@ -65,12 +72,12 @@
   margin: 1.875rem auto;
 }
 
-.footer__sub-heading__content {
+.footer__content {
   color: #db7a4e;
   font-size: smaller;
 }
 
-.footer__sub-heading__content--top-margin-remove {
+.footer__content--top-margin-remove {
   margin-top: 0;
 }
 
@@ -78,7 +85,7 @@
   display: flex;
 }
 
-.footer__sub-heading__sections {
+.footer__sections {
   margin-top: 0;
   margin-right: 1.25rem;
 }
