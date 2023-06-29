@@ -3,8 +3,8 @@
 .hero {
   background-color: #fefaf5;
   display: flex;
-  justify-content: space-around;
-  
+  justify-content: space-between;
+  padding: 5.625rem;
 }
 
 .hero__writen-content {
@@ -14,7 +14,7 @@
   text-align: left;
   color: #335576;
   font-size: large;
-  max-width: 40%;
+  max-width: 45%;
 }
 
 .hero__button {
@@ -40,4 +40,46 @@
 .hero__image {
     width: 26.5625rem;
     height: 21.875rem;
+}
+
+.recomendations {
+  background-color: #fff ;
+  display: flex;
+  flex-direction: column;
+}
+
+.recomendations__title {
+  color: #335576;
+  margin-left: 5.625rem;
+  margin-top: 3.125rem;
+}
+
+.recomendations_text {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  margin: 1.25rem;
+  justify-content: flex-end;
+
+}
+
+.card-section__card--hawaii {
+  background-image: url(/Juan-VelillaMantilla-travelsite/assets/Images/hawaii.jpg);
+  background-size: cover;
+}
+
+.card-section__card--iceland {
+  background-image: url(/Juan-VelillaMantilla-travelsite/assets/Images/iceland.jpg);
+  background-size: cover;
+}
+
+.card-section__card--greece {
+  background-image: url(/Juan-VelillaMantilla-travelsite/assets/Images/greece.jpg);
+  background-size: cover;
+}
+
+.card-section__card--alignment-recomendations {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
