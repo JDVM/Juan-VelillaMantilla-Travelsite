@@ -23,6 +23,7 @@ body, footer, header {
   height: 23.75rem;
   border-radius: .3125rem; 
   margin: 1.25rem 1.25rem 5rem 1.125rem;
+  background-color: white;
 }
 
 
@@ -43,14 +44,19 @@ body, footer, header {
 
 }
 
-.nav-bar__links--decoration-removal {
+.nav-bar__links--decoration-removal,
+.recomendations__link--decorations-removal {
     text-decoration: none;
-    color: #335576;
+    color: currentColor;
+    /* color: #335576; */
 }
 
 .nav-bar__links--decoration-removal:visited,
-.nav-bar__links--decoration-removal:active {
-    color:#335576;
+.nav-bar__links--decoration-removal:active,
+.recomendations__link--decorations-removal:visited,
+.recomendations__link--decorations-removal:active {
+    color: currentColor;
+    text-decoration: none;
 }
 
 .nav-bar__title {
@@ -113,6 +119,7 @@ body, footer, header {
 }
 .footer__information-text {
   color: #335576;
+  font-style: normal;
 }
 
 .footer__images {

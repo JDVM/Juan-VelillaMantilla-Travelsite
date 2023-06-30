@@ -1,0 +1,43 @@
+.itinerary {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5.625rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.itinerary--background-hawaii {
+  background-image: url(../assets/Images/hawaii.jpg);
+}
+
+.itinerary__title {
+    font-size: 4.0625rem;
+    color: white;
+}
+
+.itinerary__list {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    padding: 0 .9375rem;
+}
+
+.itinerary__list-title {
+    border-bottom: .125rem solid black;
+    list-style: none;
+    font-size: larger;
+    margin-bottom: 1.875rem;
+}
+
+.itinerary__list-item {
+    list-style: none;
+    background-color: #fefaf5;
+    margin-bottom: .9375rem;
+    height: 2.8125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: large;
+}
