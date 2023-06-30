@@ -27,23 +27,23 @@
 }
 
 .hero__Slogan {
-    font-size: xx-large;
-    display: flex;
-    align-items: center;
+  font-size: xx-large;
+  display: flex;
+  align-items: center;
 }
 
 .hero__text {
-    font-size: .8rem;
-    margin-bottom: 2.1875rem;
+  font-size: 0.8rem;
+  margin-bottom: 2.1875rem;
 }
 
 .hero__image {
-    width: 26.5625rem;
-    height: 21.875rem;
+  width: 26.5625rem;
+  height: 21.875rem;
 }
 
 .recomendations {
-  background-color: #fff ;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
 }
@@ -62,6 +62,10 @@
   justify-content: flex-end;
 }
 
+.card-section__card--border {
+  border: .0625rem solid #000;
+  opacity: 20%;
+}
 .card-section__card--hawaii {
   background-image: url(/Juan-VelillaMantilla-travelsite/assets/Images/hawaii.jpg);
   background-size: cover;
