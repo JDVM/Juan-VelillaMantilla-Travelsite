@@ -43,7 +43,7 @@ header {
 }
 
 .nav-bar__links--decoration-removal,
-.recomendations__link--decorations-removal {
+.recommendations__link--decorations-removal {
   text-decoration: none;
   color: currentColor;
   /* color: #335576; */
@@ -51,8 +51,8 @@ header {
 
 .nav-bar__links--decoration-removal:visited,
 .nav-bar__links--decoration-removal:active,
-.recomendations__link--decorations-removal:visited,
-.recomendations__link--decorations-removal:active {
+.recommendations__link--decorations-removal:visited,
+.recommendations__link--decorations-removal:active {
   color: currentColor;
   text-decoration: none;
 }

@@ -42,19 +42,19 @@
   height: 21.875rem;
 }
 
-.recomendations {
+.recommendations {
   background-color: #fff;
   display: flex;
   flex-direction: column;
 }
 
-.recomendations__title {
+.recommendations__title {
   color: #335576;
   margin-left: 5.625rem;
   margin-top: 3.125rem;
 }
 
-.recomendations_text {
+.recommendations_text {
   display: flex;
   flex-direction: row;
   color: #fff;
@@ -81,7 +81,7 @@
   background-size: cover;
 }
 
-.card-section__card--alignment-recomendations {
+.card-section__card--alignment-recommendations {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
