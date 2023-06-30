@@ -11,6 +11,14 @@
   background-image: url(../assets/Images/hawaii.jpg);
 }
 
+.itinerary--background-iceland {
+    background-image: url(../assets/Images/iceland.jpg)
+}
+
+.itinerary--background-greece {
+    background-image: url(../assets/Images/greece.jpg);
+}
+
 .itinerary__title {
     font-size: 4.0625rem;
     color: white;
