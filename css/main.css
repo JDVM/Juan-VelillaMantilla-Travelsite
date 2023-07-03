@@ -67,17 +67,17 @@
   opacity: 20%;
 }
 .card-section__card--hawaii {
-  background-image: url(/Juan-VelillaMantilla-travelsite/assets/Images/hawaii.jpg);
+  background-image: url(../assets/Images/hawaii.jpg);
   background-size: cover;
 }
 
 .card-section__card--iceland {
-  background-image: url(/Juan-VelillaMantilla-travelsite/assets/Images/iceland.jpg);
+  background-image: url(../assets/Images/iceland.jpg);
   background-size: cover;
 }
 
 .card-section__card--greece {
-  background-image: url(/Juan-VelillaMantilla-travelsite/assets/Images/greece.jpg);
+  background-image: url(../assets/Images/greece.jpg);
   background-size: cover;
 }
 
